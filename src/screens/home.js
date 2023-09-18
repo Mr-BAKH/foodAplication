@@ -103,7 +103,9 @@ export default function Home() {
       </View>
       {/* recipes */}
       <View>
+      {catigures.length > 0  &&
        <Recipes recipes={recipes} categories={catigures}/>
+      }
       </View>
      </ScrollView>
     </View>
